@@ -1,0 +1,12 @@
+.carousel{
+    animation: slidein 2s;
+}
+
+@keyframes slidein {
+    25%{
+        translate: -10px -100px;
+    }
+    100%{
+        translate: 0px;
+    }
+}
